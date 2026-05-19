@@ -1,0 +1,112 @@
+{
+  "model_version": "3.0.1756643346",
+  "model_uuid": "73c60a1d-f7d4-479f-b9e5-d4b87eef8e41",
+  "trained_date": "2025-08-31 20:29:06",
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "input_size": 224,
+  "class_info": {
+    "猕猴桃|健康叶片": {
+      "count": 1296,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\健康叶片\\健康叶片_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\健康叶片\\健康叶片_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\健康叶片\\健康叶片_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "健康叶片"
+    },
+    "猕猴桃|灰斑病": {
+      "count": 1194,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰斑病\\灰斑病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰斑病\\灰斑病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰斑病\\灰斑病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "灰斑病"
+    },
+    "猕猴桃|灰霉病": {
+      "count": 1176,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰霉病\\灰霉病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰霉病\\灰霉病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰霉病\\灰霉病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "灰霉病"
+    },
+    "猕猴桃|炭疽病": {
+      "count": 1326,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\炭疽病\\炭疽病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\炭疽病\\炭疽病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\炭疽病\\炭疽病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "炭疽病"
+    },
+    "猕猴桃|细菌性腐烂病": {
+      "count": 1212,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\细菌性腐烂病\\细菌性腐烂病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\细菌性腐烂病\\细菌性腐烂病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\细菌性腐烂病\\细菌性腐烂病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "细菌性腐烂病"
+    },
+    "猕猴桃|花叶病": {
+      "count": 1176,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\花叶病\\花叶病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\花叶病\\花叶病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\花叶病\\花叶病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "花叶病"
+    },
+    "猕猴桃|褐斑病": {
+      "count": 2322,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\褐斑病\\褐斑病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\褐斑病\\褐斑病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\褐斑病\\褐斑病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "褐斑病"
+    }
+  },
+  "training_config": {
+    "batch_size": 256,
+    "epochs": 30,
+    "learning_rate": 0.001
+  },
+  "num_classes": 7,
+  "class_names": [
+    "猕猴桃|健康叶片",
+    "猕猴桃|灰斑病",
+    "猕猴桃|灰霉病",
+    "猕猴桃|炭疽病",
+    "猕猴桃|细菌性腐烂病",
+    "猕猴桃|花叶病",
+    "猕猴桃|褐斑病"
+  ],
+  "class_to_idx": {
+    "猕猴桃|健康叶片": 0,
+    "猕猴桃|灰斑病": 1,
+    "猕猴桃|灰霉病": 2,
+    "猕猴桃|炭疽病": 3,
+    "猕猴桃|细菌性腐烂病": 4,
+    "猕猴桃|花叶病": 5,
+    "猕猴桃|褐斑病": 6
+  }
+}

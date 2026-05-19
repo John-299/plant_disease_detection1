@@ -1,0 +1,32 @@
+2025-06-12 09:03:23,096 - leaf_detection - INFO - 尝试加载模型，路径: D:\py test\plant_disease_detection\src\..\models\leaf_model.pth
+2025-06-12 09:03:23,096 - leaf_detection - INFO - 使用设备: cpu
+2025-06-12 09:03:23,265 - leaf_detection - INFO - 加载的类别: ['番茄']
+2025-06-12 09:03:23,265 - leaf_detection - INFO - ✅ 模型加载成功
+2025-06-12 09:03:23,266 - leaf_detection - INFO - 🌱🌱 智慧农业系统启动成功
+2025-06-12 09:03:23,266 - leaf_detection - INFO - 📍 本地访问: http://localhost:7860
+2025-06-12 09:03:23,266 - leaf_detection - INFO - 🌐🌐 网络访问: http://10.218.3.81:7860
+2025-06-12 09:03:23,334 - leaf_detection - WARNING - 示例图片目录不存在: D:\py test\plant_disease_detection\src\..\data\examples
+2025-06-12 09:07:53,533 - leaf_detection - INFO - 尝试加载模型，路径: D:\py test\plant_disease_detection\src\..\models\leaf_model.pth
+2025-06-12 09:07:53,535 - leaf_detection - INFO - 使用设备: cpu
+2025-06-12 09:07:53,765 - leaf_detection - INFO - 加载的类别: ['番茄']
+2025-06-12 09:07:53,766 - leaf_detection - INFO - ✅ 模型加载成功
+2025-06-12 09:07:53,767 - leaf_detection - INFO - 🌱🌱 智慧农业系统启动成功
+2025-06-12 09:07:53,767 - leaf_detection - INFO - 📍 本地访问: http://localhost:7860
+2025-06-12 09:07:53,767 - leaf_detection - INFO - 🌐🌐 网络访问: http://10.218.3.81:7860
+2025-06-12 09:07:53,911 - leaf_detection - WARNING - 示例图片目录不存在: D:\py test\plant_disease_detection\src\..\data\examples
+2025-06-12 09:13:31,313 - leaf_detection - INFO - 尝试加载模型，路径: D:\py test\plant_disease_detection\src\..\models\leaf_model.pth
+2025-06-12 09:13:31,313 - leaf_detection - INFO - 使用设备: cpu
+2025-06-12 09:13:31,441 - leaf_detection - INFO - 加载的类别: ['番茄']
+2025-06-12 09:13:31,441 - leaf_detection - INFO - ✅ 模型加载成功
+2025-06-12 09:13:31,443 - leaf_detection - INFO - 🌱 智慧农业系统启动成功
+2025-06-12 09:13:31,443 - leaf_detection - INFO - 📍 本地访问: http://localhost:7860
+2025-06-12 09:13:31,443 - leaf_detection - INFO - 🌐 网络访问: http://10.218.3.81:7860
+2025-06-12 09:13:31,508 - leaf_detection - WARNING - 示例图片目录不存在: D:\py test\plant_disease_detection\src\..\data\examples
+2025-06-12 09:14:09,601 - leaf_detection - INFO - 尝试加载模型，路径: D:\py test\plant_disease_detection\src\..\models\leaf_model.pth
+2025-06-12 09:14:09,601 - leaf_detection - INFO - 使用设备: cpu
+2025-06-12 09:14:09,726 - leaf_detection - INFO - 加载的类别: ['番茄']
+2025-06-12 09:14:09,726 - leaf_detection - INFO - ✅ 模型加载成功
+2025-06-12 09:14:09,728 - leaf_detection - INFO - 🌱 智慧农业系统启动成功
+2025-06-12 09:14:09,728 - leaf_detection - INFO - 📍 本地访问: http://localhost:7860
+2025-06-12 09:14:09,728 - leaf_detection - INFO - 🌐 网络访问: http://10.218.3.81:7860
+2025-06-12 09:14:09,799 - leaf_detection - WARNING - 示例图片目录不存在: D:\py test\plant_disease_detection\src\..\data\examples

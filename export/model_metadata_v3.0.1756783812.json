@@ -1,0 +1,184 @@
+{
+  "model_version": "3.0.1756783812",
+  "model_uuid": "8b102811-b8f3-4df9-8cc8-2ea9df909970",
+  "trained_date": "2025-09-02 11:30:12",
+  "normalize_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalize_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "input_size": 224,
+  "class_info": {
+    "猕猴桃|健康叶片": {
+      "count": 1296,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\健康叶片\\健康叶片_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\健康叶片\\健康叶片_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\健康叶片\\健康叶片_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "健康叶片"
+    },
+    "猕猴桃|灰斑病": {
+      "count": 1194,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰斑病\\灰斑病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰斑病\\灰斑病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰斑病\\灰斑病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "灰斑病"
+    },
+    "猕猴桃|灰霉病": {
+      "count": 1176,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰霉病\\灰霉病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰霉病\\灰霉病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\灰霉病\\灰霉病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "灰霉病"
+    },
+    "猕猴桃|炭疽病": {
+      "count": 1326,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\炭疽病\\炭疽病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\炭疽病\\炭疽病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\炭疽病\\炭疽病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "炭疽病"
+    },
+    "猕猴桃|细菌性腐烂病": {
+      "count": 1212,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\细菌性腐烂病\\细菌性腐烂病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\细菌性腐烂病\\细菌性腐烂病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\细菌性腐烂病\\细菌性腐烂病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "细菌性腐烂病"
+    },
+    "猕猴桃|花叶病": {
+      "count": 1176,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\花叶病\\花叶病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\花叶病\\花叶病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\花叶病\\花叶病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "花叶病"
+    },
+    "猕猴桃|褐斑病": {
+      "count": 2322,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\褐斑病\\褐斑病_1.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\褐斑病\\褐斑病_10.jpg",
+        "D:\\py test\\plant_disease_detection\\data\\猕猴桃\\褐斑病\\褐斑病_100.jpg"
+      ],
+      "crop": "猕猴桃",
+      "disease": "褐斑病"
+    },
+    "玉米|健康叶片": {
+      "count": 1148,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\健康叶片\\Corn_Health (1).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\健康叶片\\Corn_Health (10).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\健康叶片\\Corn_Health (100).jpg"
+      ],
+      "crop": "玉米",
+      "disease": "健康叶片"
+    },
+    "玉米|枯萎病": {
+      "count": 1146,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\枯萎病\\Corn_Blight (1).jpeg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\枯萎病\\Corn_Blight (1).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\枯萎病\\Corn_Blight (10).jpg"
+      ],
+      "crop": "玉米",
+      "disease": "枯萎病"
+    },
+    "玉米|灰叶斑点病": {
+      "count": 566,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\灰叶斑点病\\Corn_Gray_Spot (1).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\灰叶斑点病\\Corn_Gray_Spot (10).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\灰叶斑点病\\Corn_Gray_Spot (100).JPG"
+      ],
+      "crop": "玉米",
+      "disease": "灰叶斑点病"
+    },
+    "玉米|锈病": {
+      "count": 1305,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\锈病\\Corn_Common_Rust (1).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\锈病\\Corn_Common_Rust (10).jpg",
+        "D:\\py test\\plant_disease_detection\\data\\玉米\\锈病\\Corn_Common_Rust (100).JPG"
+      ],
+      "crop": "玉米",
+      "disease": "锈病"
+    },
+    "番茄|健康叶片": {
+      "count": 1591,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\番茄\\健康叶片\\000146ff-92a4-4db6-90ad-8fce2ae4fddd___GH_HL Leaf 259.1.JPG",
+        "D:\\py test\\plant_disease_detection\\data\\番茄\\健康叶片\\000bf685-b305-408b-91f4-37030f8e62db___GH_HL Leaf 308.1.JPG",
+        "D:\\py test\\plant_disease_detection\\data\\番茄\\健康叶片\\0031da2a-8edd-468f-a8b1-106657717a32___RS_HL 0105.JPG"
+      ],
+      "crop": "番茄",
+      "disease": "健康叶片"
+    },
+    "番茄|晚疫病": {
+      "count": 1909,
+      "samples": [
+        "D:\\py test\\plant_disease_detection\\data\\番茄\\晚疫病\\0003faa8-4b27-4c65-bf42-6d9e352ca1a5___RS_Late.B 4946.JPG",
+        "D:\\py test\\plant_disease_detection\\data\\番茄\\晚疫病\\00355ec2-f12c-4015-b8f9-94354f69ce22___RS_Late.B 5311.JPG",
+        "D:\\py test\\plant_disease_detection\\data\\番茄\\晚疫病\\005a2c1f-4e15-49e4-9e5c-61dc3ecf9708___RS_Late.B 5096.JPG"
+      ],
+      "crop": "番茄",
+      "disease": "晚疫病"
+    }
+  },
+  "training_config": {
+    "batch_size": 512,
+    "epochs": 30,
+    "learning_rate": 0.001
+  },
+  "num_classes": 13,
+  "class_names": [
+    "猕猴桃|健康叶片",
+    "猕猴桃|灰斑病",
+    "猕猴桃|灰霉病",
+    "猕猴桃|炭疽病",
+    "猕猴桃|细菌性腐烂病",
+    "猕猴桃|花叶病",
+    "猕猴桃|褐斑病",
+    "玉米|健康叶片",
+    "玉米|枯萎病",
+    "玉米|灰叶斑点病",
+    "玉米|锈病",
+    "番茄|健康叶片",
+    "番茄|晚疫病"
+  ],
+  "class_to_idx": {
+    "猕猴桃|健康叶片": 0,
+    "猕猴桃|灰斑病": 1,
+    "猕猴桃|灰霉病": 2,
+    "猕猴桃|炭疽病": 3,
+    "猕猴桃|细菌性腐烂病": 4,
+    "猕猴桃|花叶病": 5,
+    "猕猴桃|褐斑病": 6,
+    "玉米|健康叶片": 7,
+    "玉米|枯萎病": 8,
+    "玉米|灰叶斑点病": 9,
+    "玉米|锈病": 10,
+    "番茄|健康叶片": 11,
+    "番茄|晚疫病": 12
+  }
+}

@@ -1,0 +1,7 @@
+2025-07-18 12:07:59,373 - INFO - 🚀🚀 启动植物病害模型训练
+2025-07-18 12:07:59,394 - ERROR - 数据集准备失败: 未找到任何数据集类别
+2025-07-18 12:18:52,255 - INFO - 🚀 Starting Plant Disease Model Training
+2025-07-18 12:18:52,278 - ERROR - Dataset error: No classes found
+2025-07-18 13:03:15,493 - INFO - Starting Plant Disease Model Training
+2025-07-18 13:03:15,526 - INFO - Using device: cuda
+2025-07-18 13:03:15,526 - ERROR - Dataset error: No classes found

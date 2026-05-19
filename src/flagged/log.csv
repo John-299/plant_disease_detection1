@@ -1,0 +1,13 @@
+image,output,flag,username,timestamp
+,"{""label"": null, ""confidences"": null}",,,2025-05-18 11:44:00.195224
+flagged\image\5cf054b2265bd3ed9094\webcam.png,"{""label"": ""Diseased"", ""confidences"": [{""label"": ""Diseased"", ""confidence"": 3.6585159301757812}, {""label"": ""Healthy"", ""confidence"": -3.7986457347869873}]}",,,2025-05-18 13:36:32.188277
+flagged\image\353c9576906e81826e68\webcam.png,"{""label"": ""Diseased"", ""confidences"": [{""label"": ""Diseased"", ""confidence"": 3.6585159301757812}, {""label"": ""Healthy"", ""confidence"": -3.7986457347869873}]}",,,2025-05-18 13:36:37.574012
+,"{""label"": null, ""confidences"": null}",,,2025-05-31 13:33:47.136143
+flagged\image\eb5bb837435edb5db04b\OIP-C.jpg,"{""label"": ""Diseased"", ""confidences"": [{""label"": ""Diseased"", ""confidence"": 1.383755087852478}, {""label"": ""Healthy"", ""confidence"": -0.5019615888595581}]}",,,2025-05-31 13:36:27.177817
+flagged\image\e1224363c08a73d7489c\OIP-C.jpg,"{""label"": ""Diseased"", ""confidences"": [{""label"": ""Diseased"", ""confidence"": 1.383755087852478}, {""label"": ""Healthy"", ""confidence"": -0.5019615888595581}]}",,,2025-05-31 13:36:29.314809
+flagged\image\5b41feafe3cb319a3a7f\OIP-C.jpg,"{""label"": ""Diseased"", ""confidences"": [{""label"": ""Diseased"", ""confidence"": 1.383755087852478}, {""label"": ""Healthy"", ""confidence"": -0.5019615888595581}]}",,,2025-05-31 13:36:31.220290
+,"{""label"": null, ""confidences"": null}",,,2025-06-02 12:37:06.252241
+,"{""label"": null, ""confidences"": null}",,,2025-06-02 12:37:07.879256
+,"{""label"": null, ""confidences"": null}",,,2025-06-02 12:37:23.343523
+,"{""label"": null, ""confidences"": null}",,,2025-06-02 14:45:41.116526
+flagged\image\470006c12f7c9a182d65\CF.jpeg,"{""label"": ""Diseased"", ""confidences"": [{""label"": ""Diseased"", ""confidence"": 2.203629493713379}, {""label"": ""Healthy"", ""confidence"": -1.4060238599777222}]}",,,2025-06-02 20:08:20.129476

@@ -1,0 +1,153 @@
+2025-06-12 10:09:09,186 - camera_detection - INFO - 🚀 启动叶片实时检测系统
+2025-06-12 10:09:09,187 - camera_detection - INFO - 使用设备: cpu
+2025-06-12 10:09:09,228 - camera_detection - INFO - 加载模型架构: mobilenet_v2
+2025-06-12 10:09:09,357 - camera_detection - INFO - ✅ 模型加载成功
+   版本: 1.0.1749693844
+   UUID: 7519d7a3-d9ac-46ad-a8c1-45a6d776d18f
+   训练日期: 2025-06-12T10:05:28.923984
+   类别: ['番茄']
+2025-06-12 10:09:09,358 - camera_detection - ERROR - 主程序出错: name 'transforms' is not defined
+Traceback (most recent call last):
+  File "D:\py test\plant_disease_detection\src\detect2.py", line 322, in main
+    image_processor = ImageProcessor(model, model_metadata, device)
+  File "D:\py test\plant_disease_detection\src\detect2.py", line 163, in __init__
+    self.transform = transforms.Compose([
+NameError: name 'transforms' is not defined
+
+2025-06-12 10:09:09,389 - camera_detection - INFO - 系统资源已释放
+2025-07-01 10:20:40,020 - PID:2760 TID:27432 - camera_detection - INFO - ✅ 加载模型元数据成功
+2025-07-01 10:20:40,020 - PID:2760 TID:27432 - camera_detection - INFO - 模型版本: 1.0.1751336162
+2025-07-01 10:20:40,020 - PID:2760 TID:27432 - camera_detection - INFO - 训练日期: 2025-07-01 10:16:02
+2025-07-01 10:20:40,020 - PID:2760 TID:27432 - camera_detection - INFO - 🚀🚀🚀🚀 启动叶片实时检测系统
+2025-07-01 10:20:40,021 - PID:2760 TID:27432 - camera_detection - INFO - 使用设备: cpu
+2025-07-01 10:20:40,054 - PID:2760 TID:27432 - camera_detection - INFO - 加载模型架构: mobilenet_v2
+2025-07-01 10:20:40,177 - PID:2760 TID:27432 - camera_detection - INFO - ✅ 模型加载成功
+   版本: 1.0.1751336162
+   UUID: dc94976a-9944-41f2-bbbf-938f8c8c4494
+   训练日期: 2025-07-01 10:16:02
+   类别: ['健康', '晚疫病']
+2025-07-01 10:20:40,179 - PID:2760 TID:27432 - camera_detection - INFO - 图像预处理配置: resize=(224, 224), crop=224
+2025-07-01 10:20:40,179 - PID:2760 TID:27432 - camera_detection - INFO - 归一化参数: mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]
+2025-07-01 10:20:40,179 - PID:2760 TID:27432 - camera_detection - INFO - 尝试初始化摄像头 (索引: 0)
+2025-07-01 10:20:59,561 - PID:2760 TID:27432 - camera_detection - INFO - 摄像头初始化成功 - 分辨率: 1280x720, FPS: 30.0
+2025-07-01 10:20:59,561 - PID:2760 TID:27432 - camera_detection - INFO - ✅ 系统初始化完成，开始实时检测...
+2025-07-01 10:20:59,562 - PID:2760 TID:27432 - camera_detection - INFO - 目标帧率: 15 FPS
+2025-07-01 10:21:04,714 - PID:2760 TID:27432 - camera_detection - INFO - 性能统计: FPS=35.9, 平均处理时间=107.4ms, 最小=10.3ms, 最大=1038.8ms
+2025-07-01 10:21:09,742 - PID:2760 TID:27432 - camera_detection - INFO - 性能统计: FPS=27.7, 平均处理时间=97.9ms, 最小=10.3ms, 最大=1038.8ms
+2025-07-01 10:21:14,785 - PID:2760 TID:27432 - camera_detection - INFO - 性能统计: FPS=11.8, 平均处理时间=95.1ms, 最小=10.3ms, 最大=1038.8ms
+2025-07-01 10:21:19,920 - PID:2760 TID:27432 - camera_detection - INFO - 性能统计: FPS=10.1, 平均处理时间=106.0ms, 最小=10.3ms, 最大=1204.9ms
+2025-07-01 10:21:20,468 - PID:2760 TID:27432 - camera_detection - INFO - 用户请求退出
+2025-07-01 10:21:20,809 - PID:2760 TID:27432 - camera_detection - INFO - 所有摄像头资源已释放
+2025-07-01 10:21:20,809 - PID:2760 TID:27432 - camera_detection - INFO - ✅ 检测流程正常结束
+2025-07-01 10:21:20,810 - PID:2760 TID:27432 - camera_detection - INFO - 系统资源已释放
+2025-07-10 11:08:27,061 - PID:12900 TID:22284 - camera_detection - INFO - ✅ 加载模型元数据成功
+2025-07-10 11:08:27,062 - PID:12900 TID:22284 - camera_detection - INFO - 模型版本: 1.0.1752022911
+2025-07-10 11:08:27,062 - PID:12900 TID:22284 - camera_detection - INFO - 训练日期: 2025-07-09 09:01:51
+2025-07-10 11:08:27,062 - PID:12900 TID:22284 - camera_detection - INFO - 🚀 启动叶片实时检测系统
+2025-07-10 11:08:27,078 - PID:12900 TID:22284 - camera_detection - INFO - 使用设备: cuda
+2025-07-10 11:08:27,234 - PID:12900 TID:22284 - camera_detection - INFO - 加载模型架构: mobilenet_v2
+2025-07-10 11:08:27,308 - PID:12900 TID:22284 - camera_detection - INFO - ✅ 模型加载成功
+2025-07-10 11:08:27,308 - PID:12900 TID:22284 - camera_detection - INFO - 尝试初始化摄像头 (索引: 0)
+2025-07-10 11:08:36,824 - PID:12900 TID:22284 - camera_detection - INFO - 摄像头初始化成功 - 分辨率: 1280x720, FPS: 30.0
+2025-07-10 11:08:36,824 - PID:12900 TID:22284 - camera_detection - INFO - ✅ 系统初始化完成，开始实时检测...
+2025-07-10 11:08:36,826 - PID:12900 TID:22284 - camera_detection - WARNING - ⚠️ 无法读取摄像头画面，尝试重新连接...
+2025-07-10 11:08:36,888 - PID:12900 TID:22284 - camera_detection - INFO - 尝试初始化摄像头 (索引: 0)
+2025-07-10 11:08:46,813 - PID:12900 TID:22284 - camera_detection - INFO - 摄像头初始化成功 - 分辨率: 1280x720, FPS: 30.0
+2025-07-10 11:08:46,813 - PID:12900 TID:22284 - camera_detection - INFO - 摄像头重连成功
+2025-07-10 11:08:46,813 - PID:12900 TID:22284 - camera_detection - WARNING - ⚠️ 无法读取摄像头画面，尝试重新连接...
+2025-07-10 11:08:46,876 - PID:12900 TID:22284 - camera_detection - INFO - 尝试初始化摄像头 (索引: 0)
+2025-07-10 11:08:56,973 - PID:12900 TID:22284 - camera_detection - INFO - 摄像头初始化成功 - 分辨率: 1280x720, FPS: 30.0
+2025-07-10 11:08:56,973 - PID:12900 TID:22284 - camera_detection - INFO - 摄像头重连成功
+2025-07-10 11:08:56,974 - PID:12900 TID:22284 - camera_detection - WARNING - ⚠️ 无法读取摄像头画面，尝试重新连接...
+2025-07-10 11:08:57,063 - PID:12900 TID:22284 - camera_detection - INFO - 尝试初始化摄像头 (索引: 0)
+2025-07-10 11:09:02,055 - PID:12900 TID:22284 - camera_detection - INFO - 用户中断操作
+2025-07-10 11:09:02,086 - PID:12900 TID:22284 - camera_detection - INFO - 系统资源已释放
+2025-07-10 15:42:44,273 - PID:38456 TID:34384 - camera_detection - INFO - ✅ 加载模型元数据成功
+2025-07-10 15:42:44,274 - PID:38456 TID:34384 - camera_detection - INFO - 模型版本: 1.0.1752022911
+2025-07-10 15:42:44,274 - PID:38456 TID:34384 - camera_detection - INFO - 训练日期: 2025-07-09 09:01:51
+2025-07-10 15:42:44,274 - PID:38456 TID:34384 - camera_detection - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀 启动叶片实时检测系统
+2025-07-10 15:42:44,289 - PID:38456 TID:34384 - camera_detection - INFO - 使用设备: cuda
+2025-07-10 15:42:44,437 - PID:38456 TID:34384 - camera_detection - INFO - 加载模型架构: mobilenet_v2
+2025-07-10 15:42:44,514 - PID:38456 TID:34384 - camera_detection - INFO - ✅ 模型加载成功
+2025-07-10 15:42:48,915 - PID:38456 TID:34384 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:42:55,310 - PID:38456 TID:34384 - camera_detection - INFO - 尝试连接摄像头: DSHOW (索引: 1)
+2025-07-10 15:43:05,866 - PID:38456 TID:34384 - camera_detection - WARNING - IP摄像头连接超时: DSHOW
+2025-07-10 15:43:05,866 - PID:38456 TID:34384 - camera_detection - INFO - 尝试连接摄像头: http://10.188.143.29:8080/video (索引: 0)
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - WARNING - IP摄像头连接超时: http://10.188.143.29:8080/video
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - INFO - ✅ 系统初始化完成，开始实时检测...
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - WARNING - 摄像头未初始化，尝试重新连接...
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - ERROR - 读取帧失败: 'NoneType' object has no attribute 'read'
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - WARNING - 摄像头未初始化，尝试重新连接...
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - ERROR - 读取帧失败: 'NoneType' object has no attribute 'read'
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - WARNING - 摄像头未初始化，尝试重新连接...
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - ERROR - 读取帧失败: 'NoneType' object has no attribute 'read'
+2025-07-10 15:43:28,754 - PID:38456 TID:34384 - camera_detection - WARNING - 摄像头未初始化，尝试重新连接...
+2025-07-10 15:43:28,755 - PID:38456 TID:34384 - camera_detection - ERROR - 读取帧失败: 'NoneType' object has no attribute 'read'
+2025-07-10 15:43:28,755 - PID:38456 TID:34384 - camera_detection - WARNING - 摄像头未初始化，尝试重新连接...
+2025-07-10 15:43:28,755 - PID:38456 TID:34384 - camera_detection - ERROR - 读取帧失败: 'NoneType' object has no attribute 'read'
+2025-07-10 15:43:28,755 - PID:38456 TID:34384 - camera_detection - WARNING - 摄像头未初始化，尝试重新连接...
+2025-07-10 15:43:28,755 - PID:38456 TID:34384 - camera_detection - ERROR - 多次重连失败，退出程序
+2025-07-10 15:43:28,755 - PID:38456 TID:34384 - camera_detection - INFO - ✅ 检测流程正常结束
+2025-07-10 15:43:28,767 - PID:38456 TID:34384 - camera_detection - INFO - 系统资源已释放
+2025-07-10 15:44:04,644 - PID:26516 TID:15248 - camera_detection - INFO - ✅ 加载模型元数据成功
+2025-07-10 15:44:04,644 - PID:26516 TID:15248 - camera_detection - INFO - 模型版本: 1.0.1752022911
+2025-07-10 15:44:04,644 - PID:26516 TID:15248 - camera_detection - INFO - 训练日期: 2025-07-09 09:01:51
+2025-07-10 15:44:04,644 - PID:26516 TID:15248 - camera_detection - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀 启动叶片实时检测系统
+2025-07-10 15:44:04,663 - PID:26516 TID:15248 - camera_detection - INFO - 使用设备: cuda
+2025-07-10 15:44:04,801 - PID:26516 TID:15248 - camera_detection - INFO - 加载模型架构: mobilenet_v2
+2025-07-10 15:44:04,887 - PID:26516 TID:15248 - camera_detection - INFO - ✅ 模型加载成功
+2025-07-10 15:44:08,914 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:44:15,545 - PID:26516 TID:15248 - camera_detection - INFO - 尝试连接摄像头: http://192.168.157.85:8080/video (索引: 0)
+2025-07-10 15:44:15,958 - PID:26516 TID:15248 - camera_detection - INFO - 摄像头初始化成功 - 名称: http://192.168.157.85:8080/video 分辨率: 1920x1080, FPS: 25.0
+2025-07-10 15:44:15,958 - PID:26516 TID:15248 - camera_detection - INFO - ✅ 系统初始化完成，开始实时检测...
+2025-07-10 15:44:24,840 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:44:24,842 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:44:24,862 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=11.9, 平均处理时间=153.5ms
+2025-07-10 15:44:34,604 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:44:34,604 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:44:34,630 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=12.1, 平均处理时间=150.6ms
+2025-07-10 15:44:44,345 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:44:44,346 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:44:44,367 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=12.0, 平均处理时间=149.5ms
+2025-07-10 15:44:54,122 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:44:54,123 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:44:54,144 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=12.1, 平均处理时间=149.2ms
+2025-07-10 15:45:03,611 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:45:03,611 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:45:03,630 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=12.1, 平均处理时间=148.0ms
+2025-07-10 15:45:12,527 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:45:12,527 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:45:12,533 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=12.1, 平均处理时间=146.2ms
+2025-07-10 15:45:21,496 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:45:21,496 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:45:21,502 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=11.8, 平均处理时间=144.7ms
+2025-07-10 15:45:30,520 - PID:26516 TID:15248 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:45:30,520 - PID:26516 TID:15248 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:45:30,528 - PID:26516 TID:15248 - camera_detection - INFO - 性能统计: FPS=11.8, 平均处理时间=143.7ms
+2025-07-10 15:45:32,450 - PID:26516 TID:15248 - camera_detection - INFO - 用户请求退出
+2025-07-10 15:45:32,451 - PID:26516 TID:15248 - camera_detection - INFO - ✅ 检测流程正常结束
+2025-07-10 15:45:32,452 - PID:26516 TID:15248 - camera_detection - INFO - 系统资源已释放
+2025-07-10 15:45:39,080 - PID:9176 TID:38032 - camera_detection - INFO - ✅ 加载模型元数据成功
+2025-07-10 15:45:39,080 - PID:9176 TID:38032 - camera_detection - INFO - 模型版本: 1.0.1752022911
+2025-07-10 15:45:39,080 - PID:9176 TID:38032 - camera_detection - INFO - 训练日期: 2025-07-09 09:01:51
+2025-07-10 15:45:39,080 - PID:9176 TID:38032 - camera_detection - INFO - 🚀🚀🚀🚀🚀🚀🚀🚀 启动叶片实时检测系统
+2025-07-10 15:45:39,096 - PID:9176 TID:38032 - camera_detection - INFO - 使用设备: cuda
+2025-07-10 15:45:39,237 - PID:9176 TID:38032 - camera_detection - INFO - 加载模型架构: mobilenet_v2
+2025-07-10 15:45:39,315 - PID:9176 TID:38032 - camera_detection - INFO - ✅ 模型加载成功
+2025-07-10 15:45:43,387 - PID:9176 TID:38032 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:45:46,701 - PID:9176 TID:38032 - camera_detection - INFO - 尝试连接摄像头: DSHOW (索引: 1)
+2025-07-10 15:45:56,899 - PID:9176 TID:38032 - camera_detection - WARNING - IP摄像头连接超时: DSHOW
+2025-07-10 15:45:56,899 - PID:9176 TID:38032 - camera_detection - INFO - 尝试连接摄像头: http://192.168.157.85:8080/video (索引: 0)
+2025-07-10 15:45:57,016 - PID:9176 TID:38032 - camera_detection - INFO - 摄像头初始化成功 - 名称: http://192.168.157.85:8080/video 分辨率: 1920x1080, FPS: 25.0
+2025-07-10 15:45:57,016 - PID:9176 TID:38032 - camera_detection - INFO - ✅ 系统初始化完成，开始实时检测...
+2025-07-10 15:46:05,906 - PID:9176 TID:38032 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:46:05,906 - PID:9176 TID:38032 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:46:05,924 - PID:9176 TID:38032 - camera_detection - INFO - 性能统计: FPS=11.9, 平均处理时间=143.7ms
+2025-07-10 15:46:14,847 - PID:9176 TID:38032 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:46:14,847 - PID:9176 TID:38032 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:46:14,854 - PID:9176 TID:38032 - camera_detection - INFO - 性能统计: FPS=11.8, 平均处理时间=145.0ms
+2025-07-10 15:46:23,844 - PID:9176 TID:38032 - camera_detection - INFO - 检测到 2 个USB摄像头
+2025-07-10 15:46:23,844 - PID:9176 TID:38032 - camera_detection - DEBUG - 更新USB摄像头列表，找到 2 个可用设备
+2025-07-10 15:46:23,852 - PID:9176 TID:38032 - camera_detection - INFO - 性能统计: FPS=12.7, 平均处理时间=139.0ms
+2025-07-10 15:46:26,673 - PID:9176 TID:38032 - camera_detection - INFO - 用户中断操作
+2025-07-10 15:46:26,683 - PID:9176 TID:38032 - camera_detection - INFO - 系统资源已释放

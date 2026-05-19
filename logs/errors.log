@@ -1,0 +1,66 @@
+2025-08-31 17:13:37,506 - CRITICAL - PlantDiseaseModel - Critical error: name 'cudnn' is not defined
+2025-08-31 17:55:53,736 - ERROR - PlantDiseaseModel - Model creation failed: Windows not yet supported for torch.compile
+2025-08-31 18:06:20,223 - ERROR - PlantDiseaseModel - Model creation failed: Windows not yet supported for torch.compile
+2025-08-31 18:09:24,764 - CRITICAL - PlantDiseaseModel - Critical error: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "D:\Anaconda3\envs\ml_env\lib\site-packages\torch\utils\data\_utils\worker.py", line 308, in _worker_loop
+    data = fetcher.fetch(index)
+  File "D:\Anaconda3\envs\ml_env\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\Anaconda3\envs\ml_env\lib\site-packages\torch\utils\data\_utils\fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "D:\py test\plant_disease_detection\src\trainv3.py", line 361, in __getitem__
+    image = self.transform(image)
+  File "D:\Anaconda3\envs\ml_env\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "D:\Anaconda3\envs\ml_env\lib\site-packages\torchvision\transforms\transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "D:\Anaconda3\envs\ml_env\lib\site-packages\torchvision\transforms\functional.py", line 140, in to_tensor
+    raise TypeError(f"pic should be PIL Image or ndarray. Got {type(pic)}")
+TypeError: pic should be PIL Image or ndarray. Got <class 'torch.Tensor'>
+
+2025-08-31 18:16:26,788 - ERROR - PlantDiseaseModel - Dataset preparation failed: 'TrainingEngine' object has no attribute 'config极'
+2025-08-31 19:44:50,409 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-08-31 19:46:35,790 - CRITICAL - PlantDiseaseModel - Critical error: name 'is_best' is not defined
+2025-08-31 19:47:19,711 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-08-31 20:29:06,608 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-08-31 20:36:25,109 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-08-31 21:22:53,311 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-09-01 09:23:55,285 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-09-01 09:27:38,998 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-09-01 09:30:06,759 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-09-01 09:30:26,094 - CRITICAL - PlantDiseaseModel - Critical error: mat1 and mat2 shapes cannot be multiplied (64x960 and 1280x1024)
+2025-09-01 09:35:06,132 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-09-02 09:53:19,424 - ERROR - PlantDiseaseModel - Checkpoint loading error: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
+2025-09-02 09:53:19,426 - CRITICAL - PlantDiseaseModel - Critical error: Tried to instantiate dummy base class Stream
+2025-09-02 10:10:28,463 - ERROR - PlantDiseaseModel - Checkpoint loading error: 'model_state'
+2025-09-02 10:20:08,025 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 10:30:04,570 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 10:47:44,762 - CRITICAL - PlantDiseaseModel - Critical error: save() got an unexpected keyword argument 'weights_only'
+2025-09-02 10:48:14,499 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 10:52:52,360 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 10:57:28,653 - CRITICAL - PlantDiseaseModel - Critical error: save() got an unexpected keyword argument 'weights_only'
+2025-09-02 11:02:08,524 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 11:08:27,274 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 11:12:04,908 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 11:20:10,878 - CRITICAL - PlantDiseaseModel - Critical error: __init__() got an unexpected keyword argument 'device_type'
+2025-09-02 11:32:01,747 - CRITICAL - PlantDiseaseModel - Critical error: save() got an unexpected keyword argument 'weights_only'
+2025-09-03 08:54:05,902 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-09-03 11:46:22,067 - ERROR - PlantDiseaseModel - Checkpoint loading error: Error(s) in loading state_dict for MobileNetV3:
+	size mismatch for classifier.3.weight: copying a param with shape torch.Size([13, 1024]) from checkpoint, the shape in current model is torch.Size([7, 1024]).
+	size mismatch for classifier.3.bias: copying a param with shape torch.Size([13]) from checkpoint, the shape in current model is torch.Size([7]).
+2025-09-03 11:48:18,054 - ERROR - PlantDiseaseModel - Checkpoint loading error: Error(s) in loading state_dict for MobileNetV3:
+	size mismatch for classifier.3.weight: copying a param with shape torch.Size([7, 1024]) from checkpoint, the shape in current model is torch.Size([13, 1024]).
+	size mismatch for classifier.3.bias: copying a param with shape torch.Size([7]) from checkpoint, the shape in current model is torch.Size([13]).
+2025-09-03 11:48:18,152 - ERROR - PlantDiseaseModel - Checkpoint loading error: Error(s) in loading state_dict for MobileNetV3:
+	size mismatch for classifier.3.weight: copying a param with shape torch.Size([7, 1024]) from checkpoint, the shape in current model is torch.Size([13, 1024]).
+	size mismatch for classifier.3.bias: copying a param with shape torch.Size([7]) from checkpoint, the shape in current model is torch.Size([13]).
+2025-09-04 09:01:10,857 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-09-09 09:13:52,460 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-09-09 09:13:52,461 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-09-09 09:16:09,212 - ERROR - PlantDiseaseModel - Save error: local variable 'state_dict' referenced before assignment
+2025-09-09 09:16:09,215 - CRITICAL - PlantDiseaseModel - Critical error: local variable 'state_dict' referenced before assignment
+2025-09-09 09:16:09,227 - ERROR - PlantDiseaseModel - Save error: local variable 'state_dict' referenced before assignment
+2025-09-09 09:16:09,229 - CRITICAL - PlantDiseaseModel - Critical error: local variable 'state_dict' referenced before assignment
+2025-09-09 09:19:08,261 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group
+2025-09-10 09:06:56,039 - ERROR - PlantDiseaseModel - Checkpoint loading error: loaded state dict contains a parameter group that doesn't match the size of optimizer's group

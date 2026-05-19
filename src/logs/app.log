@@ -1,0 +1,7 @@
+2025-06-12 09:21:25,161 - plant_disease_detection - INFO - Loading model from: D:\py test\plant_disease_detection\src\models\leaf_model.pth
+2025-06-12 09:21:25,162 - plant_disease_detection - ERROR - ❌ Failed to load model: Model file not found: D:\py test\plant_disease_detection\src\models\leaf_model.pth
+2025-06-12 09:29:49,958 - plant_disease_detection - INFO - 尝试加载模型，路径: D:\py test\plant_disease_detection\src\..\models\leaf_model.pth
+2025-06-12 09:29:49,959 - plant_disease_detection - INFO - 使用设备: cpu
+2025-06-12 09:29:50,056 - plant_disease_detection - INFO - 加载的类别: ['番茄']
+2025-06-12 09:29:50,056 - plant_disease_detection - INFO - ✅ 模型加载成功
+2025-06-12 09:29:50,176 - plant_disease_detection - INFO - 🌱 智慧农业系统启动成功
